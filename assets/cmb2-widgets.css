@@ -1,0 +1,37 @@
+.cmb2-widgets .cmb-th {
+  padding: 5px 0 0 0;
+}
+
+.cmb2-widgets .cmb-td {
+  padding: 5px 0 0 0;
+  width: 100%;
+}
+
+.cmb2-widgets:last-child .cmb-td {
+  padding-bottom: 10px;
+}
+
+.cmb2-widgets label {
+  line-height: 1.5;
+  color: #666;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.cmb2-widgets label::after {
+    content: ":";
+}
+
+.cmb2-widgets img {
+    max-width: 100%;
+}
+
+.cmb2-widgets input[type="text"],
+.cmb2-widgets input[type="email"],
+.cmb2-widgets input[type="url"],
+.cmb2-widgets input[type="search"],
+.cmb2-widgets input[type="password"],
+.cmb2-widgets textarea {
+    width: 100%;
+}

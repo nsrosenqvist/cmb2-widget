@@ -1,0 +1,17 @@
+{
+    "name": "nsrosenqvist/cmb2-widget",
+    "type": "wordpress-plugin",
+    "license": "MIT",
+    "description": "",
+    "homepage": "https://github.com/nsrosenqvist/cmb2-widget",
+    "autoload": {
+        "psr-4": {
+            "NSRosenqvist\\CMB2\\Widgets\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0",
+        "cmb2/cmb2": "^2.4.0"
+    }
+}
